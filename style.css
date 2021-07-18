@@ -45,3 +45,11 @@ main {
   line-height: 100%;
 
 }
+
+.mhlogo {
+  position: static;
+}
+
+.mhmask {
+  position: absolute;
+}

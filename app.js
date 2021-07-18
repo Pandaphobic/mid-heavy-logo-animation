@@ -11,11 +11,11 @@ anime({
     duration: 80000
   });
 
-anime({
-    targets:'.svg .lines path',
-    strokeDashoffset: [anime.setDashoffset, 0],
-    easing: 'easeInOutSine',
-    duration: 1500,
-    delay: function(el, i) { return i * 250 },
-    direction: 'forwards',
-})
+// anime({
+//     targets:'.svg .lines path',
+//     strokeDashoffset: [anime.setDashoffset, 0],
+//     easing: 'easeInOutSine',
+//     duration: 1500,
+//     delay: function(el, i) { return i * 250 },
+//     direction: 'forwards',
+// })
