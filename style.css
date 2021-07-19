@@ -47,9 +47,10 @@ main {
 }
 
 .mhlogo {
-  position: static;
+  position: relative;
 }
 
 .mhmask {
   position: absolute;
+  z-index: 10;
 }

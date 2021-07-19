@@ -9,7 +9,18 @@ anime({
     translatey: -200,
     rotate: '1turn',
     duration: 80000
-  });
+});
+
+var backPath1
+
+window.onload = function (){
+  var c = document.getElementById("mhlogo").contentDocument;
+  var backPath1 = c.getElementById("backPath1");
+  backPath1.setAttribute("style", "fill: green;");
+  // var c2 = document.getElementById("svg2").contentDocument;
+  // var rect = c2.getElementById("backPath1");
+  // rect.setAttribute("style", "fill: green;");
+}
 
 // anime({
 //     targets:'.svg .lines path',
