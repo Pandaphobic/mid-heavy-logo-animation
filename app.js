@@ -11,22 +11,21 @@ anime({
     duration: 80000
 });
 
-var backPath1
+var backPath1;
 
 window.onload = function (){
   var c = document.getElementById("mhlogo").contentDocument;
-  var backPath1 = c.getElementById("backPath1");
-  backPath1.setAttribute("style", "fill: green;");
-  // var c2 = document.getElementById("svg2").contentDocument;
-  // var rect = c2.getElementById("backPath1");
-  // rect.setAttribute("style", "fill: green;");
+  backPath1 = c.getElementById("backPath1");
+    anime({
+      targets: backPath1,
+      translateY: 250,
+      translateX: -35,
+      direction: 'reverse',
+      easing: 'easeInOutSine',
+      duration: 3000
+    });
 }
 
-// anime({
-//     targets:'.svg .lines path',
-//     strokeDashoffset: [anime.setDashoffset, 0],
-//     easing: 'easeInOutSine',
-//     duration: 1500,
-//     delay: function(el, i) { return i * 250 },
-//     direction: 'forwards',
-// })
+//hey hon, figure out a way to itterate this so that you dont have to write it out a bunch of times for each element.
+//use animejs staggering for moving all the things, might wanna pull the animejs func out of the onload?
+//gotta give all your svg paths ids to target them by.
