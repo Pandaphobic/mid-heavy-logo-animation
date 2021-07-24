@@ -1,3 +1,7 @@
+
+
+
+
 # Mid Heavy Timeline Animation
 
 I decided to use the AnimeJS Timeline as it's easier
@@ -23,3 +27,4 @@ we run a function to create that object imediately before
 we need to use it.
 
 ## Result
+https://user-images.githubusercontent.com/11794877/126878279-6b46a60f-41fb-4555-b34b-fb50d1db6e35.mp4
