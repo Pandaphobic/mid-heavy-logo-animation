@@ -1,56 +1,35 @@
-@import url("https://use.typekit.net/jmk3xov.css");
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap");
 
 :root {
-  --dark-bg: rgba(15, 15, 15, 0.65);
-  --spacing: 350px;
+  --dark-bg: #202020;
 }
 
 body {
-  margin:0;
-  background-color: rgb(51, 51, 51);
+  background-color: var(--dark-bg);
 }
 
-main {
-  width: 100vw;
-  height: 100vh;
-  color: rgb(255, 255, 255);
-  z-index: 99;
-  position: absolute;
-  width: 100%;
-  margin: 0px auto;
-  padding: 0px 0px;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(7, 1fr);
+#title {
+  font-size: 3.5em;
+  font-family: rajdhani;
+  margin-top: 0;
+  color: #c4c4c4;
+  display: none;
 }
 
-.fuc {
-  background: var(--dark-bg);
-  grid-column: 2 / span 4;
-  grid-row: 2;
-  font-family: 'Oswald', sans-serif;
-  font-size: 2rem;
-  padding: 2rem;
-  line-height: 100%;
-  
-}
-
-.hec {
-  background: var(--dark-bg);
-  grid-column: 8 / span 4;
-  grid-row: 6;
-  font-family: 'Oswald', sans-serif;
-  font-size: 2rem;
-  padding: 2rem;
-  line-height: 100%;
-
-}
-
-.mhlogo {
+#mh-logo {
+  margin: auto;
   position: relative;
+  display: block;
 }
 
-.mhmask {
-  position: absolute;
-  z-index: 10;
+#logo-container {
+  margin-top: 5em;
+  background: var(--dark-bg);
+  text-align: center;
+  align-items: center;
+}
+
+/* Needs to be invisible at start up */
+#hPath {
+  display: none;
 }
