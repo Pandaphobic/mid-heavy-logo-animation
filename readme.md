@@ -1,3 +1,5 @@
+-- MERGED + PARKED --
+
 # Mid Heavy Timeline Animation
 
 I decided to use the AnimeJS Timeline as it's easier
